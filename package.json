@@ -1,0 +1,32 @@
+{
+  "name": "boilerplate-gulp",
+  "version": "0.0.1",
+  "description": "ejercicio para practicar Gulp",
+  "main": "server.js",
+  "scripts": {
+    "test": "start node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ely405/boilerplate-gulp.git"
+  },
+  "keywords": [
+    "gulp",
+    "sass",
+    "javascript",
+    "npm"
+  ],
+  "author": "ely405",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.12",
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0"
+  }
+}
